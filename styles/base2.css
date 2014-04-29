@@ -88,11 +88,10 @@ a:hover{
     padding-bottom: 3%;
     height: 70px;
     padding-left: 3%;
-    transition : width 1s ease;
-    transition: background-color 1s ease;
+    transition : all 1s ease;
 }
 
-#sidebar .box:hover{
+.box:hover{
     background-color: #17697F;
 }
 
