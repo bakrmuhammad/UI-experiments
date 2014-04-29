@@ -36,15 +36,22 @@ h2{
     font-size: 2em;
 }
 
+header nav {
+    padding: 3% 3% 3% 2%;
+    float: left;
+}
+
 a{
     text-decoration: none;
     color: #000;
     transition: color 0.5s ease;
+    padding: 0 10% 0 0%;
 }
 
 a:hover{
     color: #fff;
 }
+
 
 #wrapper{
     display: inline;
@@ -70,8 +77,27 @@ a:hover{
     margin-bottom: 30px;
 }
 
+#sidebar{
+    float: left;    
+}
 
+.box{
+    width: 120px;
+    background-color: #6AD3E8;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 70px;
+    padding-left: 3%;
+    transition : width 1s ease;
+    transition: background-color 1s ease;
+}
+
+#sidebar .box:hover{
+    background-color: #17697F;
+}
 
 article{
-    margin-left: 25%;
+    margin-left: 15%;
+    clear: both;
+    
 }
